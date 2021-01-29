@@ -6,15 +6,10 @@ using UnityEngine;
 [RequireComponent(typeof(Collider))]
 public class Draggable : MonoBehaviour
 {
+    public Rigidbody rb;
     // Start is called before the first frame update
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        rb = GetComponent<Rigidbody>();
     }
 }
