@@ -22,6 +22,7 @@ public class Dragger : MonoBehaviour
                 {
                     DraggingObject = hit.collider.GetComponent<Draggable>();
                     print("Grabbed Object: " + DraggingObject.name);
+                    DraggingObject.transform.parent = null;
                 }
             }
         }
