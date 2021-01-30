@@ -11,6 +11,9 @@ GameObject:
   - component: {fileID: 7833687885592902640}
   - component: {fileID: 6564280362015700053}
   - component: {fileID: 9006624743710015647}
+  - component: {fileID: 6869485802313573204}
+  - component: {fileID: 343260212559295079}
+  - component: {fileID: 8699607884202440002}
   m_Layer: 0
   m_Name: Shower
   m_TagString: Untagged
@@ -80,6 +83,45 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &6869485802313573204
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7493155302372270410}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000002, z: 0.1242273}
+  m_Center: {x: 0, y: -0.00000008118724, z: 0.062113155}
+--- !u!65 &343260212559295079
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7493155302372270410}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.11295157, y: 2.0000002, z: 4.302455}
+  m_Center: {x: -0.94352424, y: -0.00000008118724, z: 2.1512272}
+--- !u!65 &8699607884202440002
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7493155302372270410}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2.0000002, z: 0.12624028}
+  m_Center: {x: 0, y: -0.00000008118726, z: 4.2393384}
 --- !u!1001 &1805550761051973979
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -95,17 +137,17 @@ PrefabInstance:
     - target: {fileID: 6702938070358394261, guid: 28fbcebf4d386f64e8259583b6cf051b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.035587285
+      value: -0.044
       objectReference: {fileID: 0}
     - target: {fileID: 6702938070358394261, guid: 28fbcebf4d386f64e8259583b6cf051b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.16946311
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 6702938070358394261, guid: 28fbcebf4d386f64e8259583b6cf051b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.004086265
+      value: 0.141
       objectReference: {fileID: 0}
     - target: {fileID: 6702938070358394261, guid: 28fbcebf4d386f64e8259583b6cf051b,
         type: 3}
