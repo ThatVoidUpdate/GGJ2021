@@ -17,11 +17,9 @@ public class Dragger : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity))
             {
-                print(hit.collider.name);
                 if (hit.collider.gameObject.GetComponent<Draggable>())
                 {
                     DraggingObject = hit.collider.GetComponent<Draggable>();
-                    print("Grabbed Object: " + DraggingObject.name);
                     DraggingObject.transform.parent = null;
                 }
             }
